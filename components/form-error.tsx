@@ -1,7 +1,7 @@
 import { AlertTriangleIcon } from "lucide-react";
 
 interface FromErrorProp {
-    message : string,
+    message : string | undefined,
 };
 
 export const FormError = ({ message }: FromErrorProp) => {
